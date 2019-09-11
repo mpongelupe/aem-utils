@@ -1,0 +1,24 @@
+{
+  "name": "aem-utils",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Util package that integrates with AEM Sling API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpongelupe/aem-utils.git"
+  },
+  "keywords": [
+    "AEM",
+    "NodeJS",
+    "Sling"
+  ],
+  "author": "Mateus Pongelupe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpongelupe/aem-utils/issues"
+  },
+  "homepage": "https://github.com/mpongelupe/aem-utils#readme"
+}
