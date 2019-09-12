@@ -8,3 +8,16 @@ client.getResource('content/freestyle-cms/fos-bundles/4-0/7100-bundles/multilang
   }, (err) => {
     console.log(err.request);
   });
+
+// client.query({
+//   path: '/content/freestyle-cms',
+//   '1_property': 'sling:resourceType',
+//   '1_property.value': 'freestyle-cms/contentmanagement/components/page/fos/9000/promotiondetail',
+//   'p.limit': 80,
+//   'p.hits': 'selective',
+//   'p.properties': 'jcr:title'
+// }).then((res) => {
+//   console.log(res.data);
+// }, (err) => {
+//   console.log(err.request);
+// });

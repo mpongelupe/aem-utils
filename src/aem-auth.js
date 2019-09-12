@@ -1,6 +1,7 @@
 const axios = require('axios');
 
 const LOGIN_TOKEN_COOKIE = 'login-token';
+const QUERY_BUILDER_PATH = 'bin/querybuilder.json'
 
 class AEMClient {
   constructor(host, options = {}) {
@@ -27,6 +28,12 @@ class AEMClient {
   getResource(resourcePath, depth) {
     const path = `${resourcePath}.${depth}.json`;
     return this.axios.get(path);
+  }
+
+  query(options) {
+    return this.axios.get(`${QUERY_BUILDER_PATH}`, {
+      params: options
+    });
   }
 
 }
